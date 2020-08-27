@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider | HTML CSS JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="image-slider-container" class="image-slider-container">
+        <div id="left">
+            <img src="./left-arrow.png" alt="">
+        </div>
+        <div id="image-slider-slide-container">
+            <!--keep the first image in hidden false, i.e do not put hidden attr-->
+            <div class="image-slider-item">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="">
+            </div>
+            <div class="image-slider-item" hidden>
+                <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+            </div>
+            <div class="image-slider-item" hidden>
+                <img src="https://images.unsplash.com/photo-1474524955719-b9f87c50ce47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80" alt="">
+            </div>
+            <div class="image-slider-item" hidden>
+                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1440&q=80" alt="">
+            </div>
+        </div>
+        <div id="right">
+            <img src="./right-arrow.png" alt="">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
